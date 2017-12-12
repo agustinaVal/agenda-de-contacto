@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Document</title>
+</head>
+
+<body>
+
+
+  <header>
+   <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">Lista de contacto</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1"><i class="material-icons">add</i></a></li>
+        <li><a href="badges.html"><i class="material-icons">search</i></a></li>
+        <li class="active"><a href="collapsible.html">Jquery</a></li>
+      </ul>
+    </div>
+   </nav>
+  </header>
+
+
+  <section >
+   <div id="modal1" class="modal">
+      <div>
+        <h4>Contactos</h4>
+        <br>      
+      </div>
+      <div class="modal-body">
+          <div><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            <input type="text" name="name" placeholder="Nombre" id="name">
+          </div>
+          <div><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+            <input type="text" name="number" placeholder="Teléfono" id="number">
+          </div>
+         </div>
+      <div class="modal-footer">
+      <div align="center">
+        <button id="guardar" type="button" class="btn teal btn-success">Guardar</button>
+        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div> 
+  </section>
+
+  <section>
+  <div class="container">
+    <div id="contenedor" class="row"></div>    
+  </div>
+</section>
+
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/app.js"></script>
+	
+</body>
+</html>
